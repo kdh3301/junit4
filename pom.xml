@@ -461,7 +461,7 @@
 		        <artifactId>maven-pmd-plugin</artifactId>
 		        <version>3.11.0</version>
 		        <configuration>
-		        	<minimumToken>25</minimumToken>
+		        	<minimumTokens>25</minimumTokens>
 		        </configuration>
 		     </plugin>
         </plugins>
