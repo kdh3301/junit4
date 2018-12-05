@@ -61,7 +61,7 @@ public class ParallelComputer extends Computer {
     @Override
     protected Runner getRunner(RunnerBuilder builder, Class<?> testClass)
             throws Throwable {
-        Runner runner = super.getRunner(builder, testClass);
+        Runner runner = super.getRunner(builder, testClass); // NOPMD by CHAMP22 on 18. 12. 4 ?? 4:47
         return methods ? parallelize(runner) : runner;
     }
 }
